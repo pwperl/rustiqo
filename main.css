@@ -1,0 +1,262 @@
+/* Header Area */
+.header_area {
+	height: 100px;
+	width: 100%;
+	background: #F7F2FF;
+	vertical-align: middle;
+	margin-bottom: 0px;
+}
+
+.logo {
+	vertical-align: middle;
+	margin: 20px 30px 20px 30px;
+}
+
+.nav-headings {
+	font-family: STHeitiTC-Medium;
+	font-size: 20px;
+	color: #989898;
+	line-height: 21px;
+	margin-right: 40px;
+}
+
+.nav-title {
+	margin: 40px 30px 40px auto;
+	vertical-align: middle;
+}
+
+.nav-title:hover {
+	border-radius: 6px;
+	height: 40px;
+	background-color: #C7BADB;
+}
+
+/* Background Image */
+.bgimg {
+	background-image: url(file:///Users/Patrick/Sites/Rustiqo/Assets/landing_background.png);
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	opacity: 90%;
+	width: 100%;
+}
+
+/* Landing Area */
+.landing {
+	height: 760px;
+	width: auto;
+}
+
+/* Small Sign Up Button */
+.sign-up-small {
+	margin: 28px auto 33px 30px;
+	font-family: STHeitiTC-Medium;
+	font-size: 16px;
+	color: #989898;
+	vertical-align: middle;
+	border-radius: 6px;
+	background: #FFD49F;
+	height: 40px;
+	width: 140px;
+	border: none;
+}
+
+/* Landing Area Text and Buttons */
+.action {
+	height: 227px;
+	width: 639px;
+	margin-left: 43%;
+	margin-top: 13%;
+}
+
+/* Sign up Area */
+.cta {
+	text-align: center;
+	margin-top: 120px;
+}
+
+/* Landing Area Text and Buttons */
+.pre-reg-input {
+	width: 50%;
+	height: 35px;
+	padding-left: 10px;
+	margin: 28px 30px 30px auto;
+	text-align: left;
+	margin-top: 60px;
+	background: #FFFFFF;
+	border: 1px solid #989898;
+	border-radius: 6px;
+	font-family: GeosansLight;
+	font-size: 16px;
+	color: #989898;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+/* Section 1 Support Text */
+.s1landing {
+	font-family: GeosansLight;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+	height: 120px;
+}
+
+/* Learn More Button */
+.learn-more {
+	border-radius: 6px;
+	background: #DCCEF1;
+	font-family: STHeitiTC-Medium;
+	font-size: 28px;
+	color: #989898;
+	line-height: 35px;
+	vertical-align: middle;
+	height: 69px;
+	width: 242px;
+	border: none;
+}
+
+/* Sign Up Button Large */
+.sign-up-large {
+	border-radius: 6px;
+	background: #FFD49F;
+	font-family: STHeitiTC-Medium;
+	font-size: 28px;
+	color: #989898;
+	line-height: 35x;
+	vertical-align: middle;
+	height: 69px;
+	width: 242px;
+	border: none;
+}
+
+h1 {
+	font-family: STHeitiTC-Light;
+	font-size: 48px;
+	color: #FFFFFF;
+	line-height: 66px;
+	letter-spacing: 2px;
+	width: 639px;
+	height: 98px;
+	text-align: center;
+}
+
+/* The Olive Oils Section */
+.section1 {
+	background: #FFF4F4;
+	height: 800px;
+	width: 100%;
+}
+
+h2 {
+	font-family: STHeitiTC-Light;
+	font-size: 48px;
+	color: #989898;
+	line-height: 49px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.s1main {
+	font-family: GeosansLight;
+	font-size: 26px;
+	color: #989898;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin: 40px auto 70px auto;
+	text-align: center;
+	height: 120px;
+	width: 903px;
+}
+
+.example-bottles {
+	text-align: center;
+	height: 160px;
+	vertical-align: baseline;
+}
+
+.bottle-descriptions {
+	font-family: STHeitiTC-Medium;
+	font-size: 26px;
+	color: #989898;
+	line-height: 27px;
+	letter-spacing: 1px;
+	text-align: center;
+	width: 300px;
+	margin: 40px auto 69px auto;
+}
+
+.s1sup {
+	font-family: GeosansLight;
+	font-size: 26px;
+	color: #989898;
+	line-height: 30px;
+	letter-spacing: 1px;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.section2 {
+	background: #F7F2FF;
+	height: 1280;
+	width: 100%;
+}
+
+.inc-row {
+	margin: 112px auto 112px auto;
+}
+
+.proccess-incitem-titles {
+	font-family: STHeitiTC-Light;
+	font-size: 26px;
+	color: #989898;
+	line-height: 27px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.proccess-incitem-description {
+	font-family: GeosansLight;
+	font-size: 26px;
+	color: #989898;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.inc-icon {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.section3 {
+	background: #FFF7EF;
+	height: 330px;
+	width: 100%;
+}
+
+h3 {
+	font-family: GeosansLight;
+	font-size: 40px;
+	color: #989898;
+	line-height: 47px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 70px auto 52px auto;
+}
+
+.bottom-sign-up {
+	text-align: center;
+	margin: 50px auto 50px auto;
+}
+
+.made-icon {
+	text-align: center;
+	vertical-align: middle;
+}
