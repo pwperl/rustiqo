@@ -33,7 +33,7 @@
 
 /* Background Image */
 .bgimg {
-	background-image: url(file:///Users/Patrick/Sites/Rustiqo/Assets/landing_background.png);
+	background-image: url(Assets/landing_background.png);
 	background-position: 0px 0px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
