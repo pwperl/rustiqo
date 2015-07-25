@@ -10,25 +10,27 @@
 .logo {
 	vertical-align: middle;
 	margin: 20px 30px 20px 30px;
+	width: 50%;
+	height: 50%;
 }
 
 .nav-headings {
-	font-family: STHeitiTC-Medium;
-	font-size: 20px;
-	color: #989898;
 	line-height: 21px;
 	margin-right: 40px;
 }
 
 .nav-title {
+	font-family: STHeitiTC-Medium;
+	color: #989898;
+	font-size: 20px;
 	margin: 40px 30px 40px auto;
 	vertical-align: middle;
+	height: 40px;
 }
 
-.nav-title:hover {
-	border-radius: 6px;
-	height: 40px;
-	background-color: #C7BADB;
+:hover {
+	color: #C7BADB;
+	text-decoration: none;
 }
 
 /* Background Image */
@@ -76,7 +78,7 @@
 }
 
 /* Landing Area Text and Buttons */
-.pre-reg-input {
+.pre-reg-input-top {
 	width: 50%;
 	height: 35px;
 	padding-left: 10px;
@@ -203,7 +205,7 @@ h2 {
 
 .section2 {
 	background: #F7F2FF;
-	height: 1280;
+	padding-bottom: 30px;
 	width: 100%;
 }
 
@@ -248,12 +250,28 @@ h3 {
 	line-height: 47px;
 	letter-spacing: 1px;
 	text-align: center;
-	margin: 70px auto 52px auto;
+	margin: 70px auto auto auto;
 }
 
 .bottom-sign-up {
 	text-align: center;
-	margin: 50px auto 50px auto;
+	margin: auto auto 50px auto;
+}
+
+/* Bottom Area Signup */
+.pre-reg-input-bottom {
+	width: 25%;
+	height: 35px;
+	padding-left: 10px;
+	text-align: left;
+	background: #FFFFFF;
+	border: 1px solid #989898;
+	border-radius: 6px;
+	font-family: GeosansLight;
+	font-size: 16px;
+	color: #989898;
+	letter-spacing: 1px;
+	line-height: 30px;
 }
 
 .made-icon {
