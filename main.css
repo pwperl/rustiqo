@@ -1,6 +1,6 @@
 /* Header Area */
 .header_area {
-	height: 100px;
+	height: auto;
 	width: 100%;
 	background: #F7F2FF;
 	vertical-align: middle;
@@ -8,18 +8,21 @@
 }
 
 .logo {
+	background-image: url(Assets/rustiqo-logo-full-2x.png);
+	background-size: 100% 100%;
 	vertical-align: middle;
 	margin: 20px 30px 20px 30px;
-	width: 50%;
-	height: 50%;
 }
 
-.nav-headings {
+.navbar-wrapper {
+	vertical-align: middle;
 	line-height: 21px;
 	margin-right: 40px;
+	float: right;
 }
 
 .nav-title {
+	width: auto;
 	font-family: STHeitiTC-Medium;
 	color: #989898;
 	font-size: 20px;
@@ -28,7 +31,7 @@
 	height: 40px;
 }
 
-:hover {
+nav-title:hover {
 	color: #C7BADB;
 	text-decoration: none;
 }
@@ -51,15 +54,16 @@
 
 /* Small Sign Up Button */
 .sign-up-small {
-	margin: 28px auto 33px 30px;
+	margin: 30px auto 30px 30px;
+	padding: auto 20px auto 20px;
 	font-family: STHeitiTC-Medium;
-	font-size: 16px;
+	font-size: 20px;
 	color: #989898;
 	vertical-align: middle;
 	border-radius: 6px;
 	background: #FFD49F;
 	height: 40px;
-	width: 140px;
+	width: 200px;
 	border: none;
 }
 
@@ -277,4 +281,29 @@ h3 {
 .made-icon {
 	text-align: center;
 	vertical-align: middle;
+}
+
+img { 
+	max-width: 100%; 
+}
+
+a {
+	color: #989898;
+}
+
+a:hover {
+	color: #FFD49F;
+	text-decoration: none;
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
